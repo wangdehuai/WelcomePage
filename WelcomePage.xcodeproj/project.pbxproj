@@ -12,6 +12,8 @@
 		7942189E1A355F6700F90264 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7942189D1A355F6700F90264 /* Images.xcassets */; };
 		794218A11A355F6700F90264 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7942189F1A355F6700F90264 /* LaunchScreen.xib */; };
 		794218AD1A355F6700F90264 /* WelcomePageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794218AC1A355F6700F90264 /* WelcomePageTests.m */; };
+		794218B81A355FBA00F90264 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794218B71A355FBA00F90264 /* RootViewController.m */; };
+		794218BB1A35600300F90264 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794218BA1A35600300F90264 /* WelcomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,11 @@
 		794218A61A355F6700F90264 /* WelcomePageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomePageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		794218AB1A355F6700F90264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794218AC1A355F6700F90264 /* WelcomePageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomePageTests.m; sourceTree = "<group>"; };
+		794218B61A355FBA00F90264 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		794218B71A355FBA00F90264 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		794218B91A35600300F90264 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		794218BA1A35600300F90264 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		794218BC1A35616600F90264 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,10 @@
 			children = (
 				7942189A1A355F6700F90264 /* AppDelegate.h */,
 				7942189B1A355F6700F90264 /* AppDelegate.m */,
+				794218B61A355FBA00F90264 /* RootViewController.h */,
+				794218B71A355FBA00F90264 /* RootViewController.m */,
+				794218B91A35600300F90264 /* WelcomeViewController.h */,
+				794218BA1A35600300F90264 /* WelcomeViewController.m */,
 				7942189D1A355F6700F90264 /* Images.xcassets */,
 				7942189F1A355F6700F90264 /* LaunchScreen.xib */,
 				794218961A355F6700F90264 /* Supporting Files */,
@@ -90,6 +101,7 @@
 			children = (
 				794218971A355F6700F90264 /* Info.plist */,
 				794218981A355F6700F90264 /* main.m */,
+				794218BC1A35616600F90264 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -211,7 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7942189C1A355F6700F90264 /* AppDelegate.m in Sources */,
+				794218BB1A35600300F90264 /* WelcomeViewController.m in Sources */,
 				794218991A355F6700F90264 /* main.m in Sources */,
+				794218B81A355FBA00F90264 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WelcomePage/PrefixHeader.pch;
 				INFOPLIST_FILE = WelcomePage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -335,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WelcomePage/PrefixHeader.pch;
 				INFOPLIST_FILE = WelcomePage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
