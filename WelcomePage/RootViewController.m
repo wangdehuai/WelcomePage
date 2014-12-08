@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    if (isFirstIn)
+    if (isFirstIn)
     {
         WelcomeViewController *welVC = [[WelcomeViewController alloc] init];
         [self presentViewController:welVC animated:NO completion:nil];
