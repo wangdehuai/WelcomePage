@@ -43,7 +43,7 @@
     
     for (int i = 0; i < picNum; i++) {
         UIView * picView = [[UIView alloc]initWithFrame:CGRectMake(KScreenWidth*i, 0, KScreenWidth, KScreenHeight)];
-        [picView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg",picNum]]]];
+        [picView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:[NSString stringWithFormat:@"ad_%d.png",picNum]]]];
         [scrollV addSubview:picView];
     }
     

@@ -14,6 +14,9 @@
 		794218AD1A355F6700F90264 /* WelcomePageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794218AC1A355F6700F90264 /* WelcomePageTests.m */; };
 		794218B81A355FBA00F90264 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794218B71A355FBA00F90264 /* RootViewController.m */; };
 		794218BB1A35600300F90264 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794218BA1A35600300F90264 /* WelcomeViewController.m */; };
+		794218C11A35758600F90264 /* ad_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794218BE1A35758600F90264 /* ad_1@2x.png */; };
+		794218C21A35758600F90264 /* ad_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794218BF1A35758600F90264 /* ad_2@2x.png */; };
+		794218C31A35758600F90264 /* ad_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794218C01A35758600F90264 /* ad_3@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		794218B91A35600300F90264 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		794218BA1A35600300F90264 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		794218BC1A35616600F90264 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		794218BE1A35758600F90264 /* ad_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_1@2x.png"; sourceTree = "<group>"; };
+		794218BF1A35758600F90264 /* ad_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_2@2x.png"; sourceTree = "<group>"; };
+		794218C01A35758600F90264 /* ad_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_3@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 				794218B71A355FBA00F90264 /* RootViewController.m */,
 				794218B91A35600300F90264 /* WelcomeViewController.h */,
 				794218BA1A35600300F90264 /* WelcomeViewController.m */,
+				794218BD1A35758600F90264 /* image */,
 				7942189D1A355F6700F90264 /* Images.xcassets */,
 				7942189F1A355F6700F90264 /* LaunchScreen.xib */,
 				794218961A355F6700F90264 /* Supporting Files */,
@@ -121,6 +128,16 @@
 				794218AB1A355F6700F90264 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		794218BD1A35758600F90264 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				794218BE1A35758600F90264 /* ad_1@2x.png */,
+				794218BF1A35758600F90264 /* ad_2@2x.png */,
+				794218C01A35758600F90264 /* ad_3@2x.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +220,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794218C11A35758600F90264 /* ad_1@2x.png in Resources */,
 				794218A11A355F6700F90264 /* LaunchScreen.xib in Resources */,
+				794218C21A35758600F90264 /* ad_2@2x.png in Resources */,
+				794218C31A35758600F90264 /* ad_3@2x.png in Resources */,
 				7942189E1A355F6700F90264 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
